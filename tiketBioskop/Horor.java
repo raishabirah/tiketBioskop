@@ -1,33 +1,31 @@
-
-/**
- * Write a description of class Horor here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Horor
+public class Horor extends Film
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    public Horor(){
 
-    /**
-     * Constructor for objects of class Horor
-     */
-    public Horor()
-    {
-        // initialise instance variables
-        x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    @Override
+    public void setNama(String nama) {
+        super.setNama(nama);
+    }
+
+    @Override
+    public String getNama() {
+        return super.getNama();
+    }
+
+    @Override
+    public void setHarga(int harga) {
+        super.setHarga(harga);
+    }
+
+    @Override
+    public int getHarga() {
+        return super.getHarga();
+    }
+
+    @Override
+    public String jadwal() {
+        return "15.00 - 17.00";
     }
 }
