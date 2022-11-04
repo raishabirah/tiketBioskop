@@ -1,24 +1,27 @@
-
-/**
- * Abstract class Film - write a description of the class here
- *
- * @author (your name here)
- * @version (version number or date here)
- */
 public abstract class Film
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String nama;
+    private int harga;
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Film(){
+
     }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public int getHarga() {
+        return harga;
+    }
+
+    public abstract String jadwal();
 }
