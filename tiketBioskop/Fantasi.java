@@ -1,33 +1,32 @@
-
-/**
- * Write a description of class Fantasi here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Fantasi
+public class Fantasi extends Film
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    public Fantasi(){
 
-    /**
-     * Constructor for objects of class Fantasi
-     */
-    public Fantasi()
-    {
-        // initialise instance variables
-        x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    @Override
+    public void setNama(String nama) {
+        super.setNama(nama);
+    }
+
+    @Override
+    public String getNama() {
+        return super.getNama();
+    }
+
+    @Override
+    public void setHarga(int harga) {
+        super.setHarga(harga);
+    }
+
+    @Override
+    public int getHarga() {
+        return super.getHarga();
+    }
+
+    @Override
+    public String jadwal() {
+        return "08.00 - 10.00";
     }
 }
+
