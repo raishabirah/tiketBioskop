@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Penonton
+comment1.params=
+comment1.target=Penonton()
+comment2.params=nama
+comment2.target=void\ setNama(java.lang.String)
+comment2.text=\r\n\ method\ yang\ digunakan\ untuk\ mengubah\ nama\ penonton\r\n\ @param\ nama\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getNama()
+comment3.text=\r\n\ method\ yang\ digunakan\ untuk\ mengembalikan\ nama\ penonton\r\n\ @return\ nama\ penonton\r\n
+comment4.params=
+comment4.target=void\ namaPenonton()
+comment4.text=\r\n\ method\ yang\ digunakan\ untuk\ mengisi\ nama\ penonton\r\n
+comment5.params=kursi
+comment5.target=void\ setKursi(java.lang.String)
+comment5.text=\r\n\ method\ untuk\ mengganti\ kursi\ penonton\r\n\ @param\ kursi\r\n
+comment6.params=
+comment6.target=java.lang.String\ getKursi()
+comment6.text=\r\n\ method\ untuk\ mengembalikan\ kursi\ penonton\r\n\ @return\ kursi\ penonton\r\n
+comment7.params=
+comment7.target=void\ kursiPenonton()
+comment7.text=\r\n\ method\ untuk\ memilih\ kursi\r\n
+numComments=8
