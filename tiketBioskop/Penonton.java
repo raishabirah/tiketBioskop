@@ -1,33 +1,66 @@
-
 /**
- * Write a description of class Penonton here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * @author laila asrin and raihan sabirah
+ * @version 09/11/2022
  */
+import java.util.Scanner;
+
 public class Penonton
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String nama;
+    private String kursi;
 
-    /**
-     * Constructor for objects of class Penonton
-     */
-    public Penonton()
-    {
-        // initialise instance variables
-        x = 0;
+    public Penonton(){
+
     }
-
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * method yang digunakan untuk mengubah nama penonton
+     * @param nama 
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    /**
+     * method yang digunakan untuk mengembalikan nama penonton
+     * @return nama penonton
+     */
+    public String getNama() {
+        return nama;
+    }
+    /**
+     * method yang digunakan untuk mengisi nama penonton
+     */
+    public void namaPenonton() {
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Silahkan masukan nama anda : ");
+        nama = s.next();
+        setNama(nama);
+    }
+    /**
+     * method untuk mengganti kursi penonton
+     * @param kursi
+     */
+    public void setKursi(String kursi) {
+        this.kursi = kursi;
+    }
+    /**
+     * method untuk mengembalikan kursi penonton
+     * @return kursi penonton
+     */
+    public String getKursi() {
+        return kursi;
+    }
+    /**
+     * method untuk memilih kursi
+     */
+    public void kursiPenonton() {
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("\nPosisi tempat duduk dalam bioskop");
+        System.out.println("\tA1\t\tA2\t\tA3\t\tA4\t\tA5\n\tB1\t\tB2\t\tB3\t\tB4\t\tB5\n\tC1\t\tC2\t\tC3\t\tC4\t\tC5");
+        System.out.println("\tD1\t\tD2\t\tD3\t\tD4\t\tD5\n\tE1\t\tE2\t\tE3\t\tE4\t\tE5");
+        System.out.print("Silahkan pilih kursi yang tersedia : ");
+        kursi = s.next().toUpperCase();
+        setKursi(kursi);
     }
 }
