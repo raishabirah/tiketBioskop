@@ -1,9 +1,7 @@
-
 /**
- * Write a description of class mainTiket here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * kelas penonton adalah kelas yang berfungsi untuk menyimpan method tiket dan menjalankan program
+ * @author laila asrin and raihan sabirah
+ * @version 09/11/2022
  */
 import java.util.Scanner;
 
@@ -13,11 +11,15 @@ public class mainTiket
     private static int bayar;
     private static int nomor;
     private static Scanner s = new Scanner(System.in);
-
+    /**
+     * method constructor dari kelas mainTiket
+     */
     public mainTiket(){
 
     }
-
+    /**
+     * method yang digunakan untuk melakukan transaksi tiket
+     */
     public static void bayarTiket(){
         System.out.println("\nMelakukan Pembayaran");
         System.out.print("Masukan uang tunai : ");
@@ -32,6 +34,9 @@ public class mainTiket
         }
     }
 
+    /**
+     * method yang digunakan untuk menjalankan program pemesanan tiket
+     */
     public static void main(String[] args) {
 
         do {

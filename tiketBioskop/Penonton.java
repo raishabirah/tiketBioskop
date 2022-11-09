@@ -9,7 +9,9 @@ public class Penonton
 {
     private String nama;
     private String kursi;
-
+    /**
+     * method constructor dari kelas penonton
+     */
     public Penonton(){
 
     }
