@@ -1,4 +1,5 @@
 /**
+ * kelas penonton adalah kelas yang berfungsi untuk menyimpan variabel dan method dari penonton
  * @author laila asrin and raihan sabirah
  * @version 09/11/2022
  */
