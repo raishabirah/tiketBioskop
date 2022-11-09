@@ -1,5 +1,5 @@
 /**
- * kelas penonton adalah kelas yang berfungsi untuk menyimpan method tiket dan menjalankan program
+ * kelas penonton adalah kelas yang berfungsi untuk menyimpan variabel dan method tiket serta menjalankan program
  * @author laila asrin and raihan sabirah
  * @version 09/11/2022
  */
