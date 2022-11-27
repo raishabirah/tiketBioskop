@@ -2,6 +2,7 @@
 comment0.target=Penonton
 comment1.params=
 comment1.target=Penonton()
+comment1.text=\r\n\ method\ constructor\ dari\ kelas\ penonton\r\n
 comment2.params=nama
 comment2.target=void\ setNama(java.lang.String)
 comment2.text=\r\n\ method\ yang\ digunakan\ untuk\ mengubah\ nama\ penonton\r\n\ @param\ nama\ \r\n
